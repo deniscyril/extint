@@ -1,0 +1,6 @@
+chaine = input("Note sur 20 : ")
+note = float(chaine)
+if note>=10.0:
+    # ce bloc est exécuté si l'expression (note>=10.0) est vraie
+    print("J'ai la moyenne")
+print("Fin du programme")
