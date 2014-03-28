@@ -7,4 +7,7 @@ Ne cherchez pas à modifier ce fichier, je maîtrise git mieux que vous :-)
 - Qualité code : 3/5 (il manque des vues secondaires)
 
 
-## Séance du 21 mars = 
+## Séance du 21 mars = ?/10
+J'ai oublié de rajouter emmanuel sur github, je ferais la notation quand il aura poussé ses modifs
+
+## Séance du 28 mars =  

@@ -30,3 +30,10 @@
 - commencer à réfléchir aux structures de données à utiliser côté serveur
   pour pouvoir réaliser le site
 - git commit // git pull // git push
+
+## Séance du 28 mars
+- définir les structures de données à utiliser côté serveur
+- définir à partir du mockup les différentes vues à créer ainsi que
+  les données associées (données nécessaires pour afficher la page, et 
+  données transmises par la page -> destination)
+
