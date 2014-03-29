@@ -1,0 +1,26 @@
+# encoding=utf-8
+
+chaine = input("Note sur 20 : ")
+note = float(chaine)
+if note>20.0 or note<0.0:
+    #ce bloc est exécuté si la note est invalide
+    print ("Note invalide")
+else: 
+    if note>=10.0:
+        # ce bloc est exécuté si l'expression (note>=10.0) est vraie
+        print("J'ai la moyenne")
+        if note==20.0:
+            # ce bloc ext exécuté lorsque l'expression (note==20.0) est vraie
+            print ("C'est même excellent !")
+    else:
+        # ce bloc est exécuté si l'expression (note<10.0) est vraie
+        print ("Peut mieux faire !")
+        if note==0.0:
+            # ce bloc est exécuté lorsque l'expression (note==0.0) est vraie
+            print ("Creuse encore !")
+print("Fin du programme")
+
+poids = input("Poids : ")
+masse = float(poids)
+taille = input ("Taille en mètres : ")
+hauteur = float(taille)
