@@ -167,10 +167,16 @@
 
 
 - Calcul par le site, à partir des montants investis par l'utilisateur, de l'ensemble des fonds investis par celui-ci.
+- Calcul du bénéfice  mensuel espéré à partir des montants des investissements actuels
+- Calcul de la durée restante (en mois) de la perception
 
 
 #### Données envoyées :
 
 
 - Valeur numériques des fonds investis par l'utilisateur dans le champs "Valeur total du montant en euros"
+- Valeur numérique du bénéfice mensuel espéré en euros par l'utilisateur dans le champs "Valeur du bénéfice espéré en euros"
+- Valeur numérique de la durée restante de perception (en mois) de la perception par l'utilisateur dans le champs "Durée restante à percevoir"
+
+
 
