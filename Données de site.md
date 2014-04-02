@@ -117,6 +117,12 @@
 ## Interface donateur 
 
 
+## Remarque importante : cette page ne s'affiche que si l'utilisateur est connecté. Cette page demande donc les données suivantes d'office ; qui seront matérialisées par un cookie :
+
+- Nom d'utilisateur
+- Mot de passe
+
+## S'affiche alors la page, considérée ici en tant qu'ensemble de données.
 
 ##### 	Cette page comporte les rubriques suivantes : 
 
@@ -178,5 +184,32 @@
 - Valeur numérique du bénéfice mensuel espéré en euros par l'utilisateur dans le champs "Valeur du bénéfice espéré en euros"
 - Valeur numérique de la durée restante de perception (en mois) de la perception par l'utilisateur dans le champs "Durée restante à percevoir"
 
+### Coordonées financières :
 
 
+#### Données demandées :
+
+
+- Vérification par le site si un carte bancaire déjà enregistrée ou non. 
+###### Si oui, voir données envoyées
+- Numéro de carte bancaire, composée de 4 ensembles de quatre chiffres. 
+- Cryptogramme de la carte, composé de 1 ensemble de 3 chiffres
+- Nom souhaité par l'utilisateur pour désigner sa carte (caractères alphanumériques + symboles)
+
+
+#### Données envoyées :
+
+
+- Coordonnées de la carte bancaire déjà enregistrée + nom de la carte :
+  - Numéro de carte, dont les 3 derniers ensemble de chiffres seront grisés
+  - Etablissement bancaire auquel est rattaché la carte
+  - Nom défini par l'utilisateur pour la carte
+- Lorsque le champ "Numéro de carte" est correctement rempli, séparer dès lors qu'un groupe de 4 chiffres est entré, le nouveau groupe par un espace double.
+- Si les 3 champs "Numéro de carte", "Cryptogramme" et "Nom" sont correctement remplis, afficher "La carte a été ajoutée" ainsi que les coordonnées de la nouvelle carte associée à son nom.
+- Si le champ "Numéro de carte bancaire" comporte un caractère non numérique : 
+  - Effacer celui-ci
+  - Afficher "seuls des caaractères numériques peuvent être entrés"
+- Si le champ "Numéro de carte" comporte plus de 16 chiffres :
+  - Afficher "Erreur : un numéro de carte est composé de 1- chiffres"
+  - Colorer en rouge le champ "Numéro de carte"
+- Si le champ "Cryptogramme" est 
