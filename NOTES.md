@@ -7,7 +7,17 @@ Ne cherchez pas à modifier ce fichier, je maîtrise git mieux que vous :-)
 - Qualité code : 3/5 (il manque des vues secondaires)
 
 
-## Séance du 21 mars = ?/10
-J'ai oublié de rajouter emmanuel sur github, je ferais la notation quand il aura poussé ses modifs
+## Séance du 21 mars = 6/10
+- Mockup OK
+- échange et organisation travail groupe : OK
 
-## Séance du 28 mars =  
+Répartition : Vincent : 50% / Emmanuel : 50% / Bettina : N/A
+
+
+## Séance du 28 mars =  8/10
+- Début site django : modèles OK
+- Données IN/OUT : OK, à préciser + rigoureusement
+
+Répartition : Vincent : 50% / Emmanuel : 50% / Bettina : N/A
+
+## Séance du 4 avril = 
