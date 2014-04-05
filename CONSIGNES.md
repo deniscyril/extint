@@ -41,7 +41,7 @@
 - Emmanuel : faire le ménage dans le répertoire Site 
   (ne pas commiter les virtualenv, isoler le python, voir .gitignore..)
 - Vincent : faire pour chaque page un modèle des données reçues et envoyées
-  en YAML
+  en YAML 
 - Bettina + Vincent : commencer à construire les pages html des templates
   - lire documentation templates django
   - écrire template "de base" + feuille de style
