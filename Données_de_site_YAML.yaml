@@ -1,0 +1,24 @@
+pages:
+    - titre: Accueil
+    
+    # Interface donateur
+    logindonateur:
+        username: monsieurviinze
+        password: abc123
+    # Interface entrepreneur
+    loginentrepreneur:
+        username: patronviinze
+        password: abc123
+    
+    - titre: "Projet [X]"
+    # Investissement
+    investissement:
+        valeur: 1000
+    
+    - titre "Interface donateur"
+    
+    # Projet à la une
+    investissement:
+        valeur: 1000
+    # Coordonées financières
+        
