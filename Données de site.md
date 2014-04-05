@@ -311,7 +311,7 @@
 
 - Description (caractères alphanumériques) 
 - CV (Curriculum Vitae) : 
-  - en caractères alphanumériques 
+  - en caractères alphanumériques + symboles
   - photo
 
 
