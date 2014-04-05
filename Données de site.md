@@ -34,13 +34,14 @@
 #### 	Données demandées :
 
 - Nom utilisateur (caractère alphanumériques)
-- Mot de passe utilisateur (caractères alphanumériques + symboles)
+- Mot de passe utilisateur en 6 caractères minimum (caractères alphanumériques + symboles)
 - Pression du bouton « Connexion », une fois les deux champs ci-dessus complétés
 
 ####	 Données envoyées :
 
 - Renvoi vers la page « Interface donateur », sur le compte de l'utilisateur
-- « Verrouillage majuscule actif » si la touche CAPS LOCK est active, durant la saisie du mot de passe
+- Saisie incorrecte ...
+- Afficher « Verrouillage majuscule actif » si la touche CAPS LOCK est active, durant la saisie du mot de passe
 - Aucun renvoi, si absence de clic sur le bouton « Connexion » ou si page chargée depuis plus de 2 minutes
 - Défilement d'informations dans le cadre du bas appelé « Photo » : photo enthousiaste, statistiques du site, publicité
 
@@ -59,7 +60,7 @@
 - Aucune, si absence de clic
 
 
-### 	Interface donateur :
+### 	Interface entrepreneur :
 
 
 #### 	Données demandées :
@@ -89,7 +90,7 @@
 - Projet D
 
 
-### Projet X :
+### Projet [X] :
 
 
 ####	Données demandées :
@@ -103,6 +104,7 @@
 #### 	Données envoyées :
 
 
+- Séparation des milliers lors de la saisie d'une valeur
 - Affichage des champs "Valeur de l'investissement" et la case "Confirmer" SEULEMENT si un utilisateur est connecté.
   - Sinon afficher "Il faut être connecté pour investir. Créez un compte ou inscrivez-vous !"
 - Affichage du bouton "Retour à l'interface" SEULEMENT si un utilisateur est connecté :
