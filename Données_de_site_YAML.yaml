@@ -45,3 +45,36 @@ pages:
             nom: VI$A
             numero: 1234 4567 7890 1234
             cryptogramme: 123
+    
+    - titre: Inscription "donateur" #1
+    # Pseudonyme
+        pseudo:
+            nom: Smith
+            prénom: Adam
+            username: monsieurviinze
+            password: abc123
+            birthdate: 4 novembre 1516
+    # Coordonnées 
+        coordonnées:
+            pays: France
+            mail: google@gmail.com
+            phone1: 06 06 06 06 06
+            phone2: +33 7 07 07 07 07
+            phone3: +34 7 07 07 07 07
+    
+    - titre: Inscription "entrepreneur" #1
+    # Pseudonyme
+        pseudo:
+            nom: Smith
+            prénom: Adam
+            username: monsieurviinze
+            password: abc123
+            birthdate: 4 novembre 1516
+    # Coordonnées 
+        coordonnées:
+            pays: France
+            mail: google@gmail.com
+            phone1: 06 06 06 06 06
+            phone2: +33 7 07 07 07 07
+            phone3: +34 7 07 07 07 07
+    
