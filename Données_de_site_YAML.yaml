@@ -1,0 +1,80 @@
+pages:
+    - titre: Accueil
+    
+    # Interface donateur
+    logindonateur:
+        username: monsieurviinze
+        password: abc123
+    # Interface entrepreneur
+    loginentrepreneur:
+        username: patronviinze
+        password: abc123
+    
+    - titre: "Projet [X]"
+    # Investissement
+    investissement:
+        valeur: 1000
+    
+    - titre: Interface donateur
+    
+    # Projet à la une
+    investissement:
+        valeur: 1000
+    # Coordonées financières
+        cartebancairedonateurr:
+            nom: VI$A
+            numero: 1234 4567 7890 1234
+            cryptogramme: 123
+    
+    - titre: Interface entrepreneur
+    
+    # Création de projet
+        projet:
+            nom: Pizzeria Pizzaloio St. Marcel
+            photo: fichier
+            # Upload d'une photo représentant le projet
+            montant: 100000
+            description: Je voudrais ouvrir une pizzeria à St. Marcel, la PIZZERIA PIZZAIOLO. Avec ce projet, je pourrais combler le manque de pizzarias sur St. Marcel en inaugurant la première du genre. C'est une pizzeria "premium" destinée à tous, avec une forte rentabilité espérée (fortes marges, pas de concurrence, clintèle aisée, main-d'oeuvre abondante et peu chère). Je suis pizzaiolo de base donc ce projet ne me paraît pas trop j'ai déjà ouvert une pizzeria et celle-ci serait ma deuxième. Mon prêt pourrait amorti en moins de 3 ans.
+    # Profil entrepreneur
+        profilentrepreneur:
+            description: Je suis un pizzaiolo, avec un BEP. Je suis dans le milieu depuis bientôt 5 ans, et j'ai déjà ouvert une pizzeria avec beaucoup de succès.
+            cv: BEP pizza
+            # Ajout d'une photo optionnelle
+    # Coordonnées financières
+        cartebancaireentrepreneur:
+            nom: VI$A
+            numero: 1234 4567 7890 1234
+            cryptogramme: 123
+    
+    - titre: Inscription "donateur" #1
+    # Pseudonyme
+        pseudo:
+            nom: Smith
+            prénom: Adam
+            username: monsieurviinze
+            password: abc123
+            birthdate: 4 novembre 1516
+    # Coordonnées 
+        coordonnées:
+            pays: France
+            mail: google@gmail.com
+            phone1: 06 06 06 06 06
+            phone2: +33 7 07 07 07 07
+            phone3: +34 7 07 07 07 07
+    
+    - titre: Inscription "entrepreneur" #1
+    # Pseudonyme
+        pseudo:
+            nom: Smith
+            prénom: Adam
+            username: monsieurviinze
+            password: abc123
+            birthdate: 4 novembre 1516
+    # Coordonnées 
+        coordonnées:
+            pays: France
+            mail: google@gmail.com
+            phone1: 06 06 06 06 06
+            phone2: +33 7 07 07 07 07
+            phone3: +34 7 07 07 07 07
+    
