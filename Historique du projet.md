@@ -80,3 +80,9 @@
   - Renommage de fichier
   - Effaçage de doublons
   - Mise à jour des textes de "commitage"
+  
+## Vendredi 11 avril avril - 15h00 - 16h00
+
+- Travail sur "Template.html" : template du site rédigé en thml
+- Travail sur "Template.py" : template en python pour appel des variables
+- Fait avec "Données de site YAML.md"
