@@ -89,4 +89,5 @@
 
 ## Samedi 12 avril 2014 - 8h30 - 10h30
 
-- Commitage 
+- Commitage et débuggage
+- Brouillons(!) templates html terminé
