@@ -73,3 +73,20 @@
 - "Données de site.md" terminé
 - Travail sur les données envoyées et reçues en YAML du site
 
+## Mercredi 9 avril - 11h30 - 12h30
+
+- Recherches sur les "DJANGO TEMPLATES" ; "HTML TEMPLATES" et "PHP", afin de préparer la séance de samedi 12 avril
+- Nettoyages divers dans GitHub : 
+  - Renommage de fichier
+  - Effaçage de doublons
+  - Mise à jour des textes de "commitage"
+  
+## Vendredi 11 avril avril - 15h00 - 16h00
+
+- Travail sur "Template.html" : template du site rédigé en thml
+- Travail sur "Template.py" : template en python pour appel des variables
+- Fait avec "Données de site YAML.md"
+
+## Samedi 12 avril 2014 - 8h30 - 10h30
+
+- Commitage 
