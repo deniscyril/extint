@@ -91,3 +91,7 @@
 
 - Commitage et débuggage
 - Brouillons(!) templates html terminé
+- Installation "Jinja2" : outil de compilage HTML + VirutalENV
+- Ménage dans les fichiers
+- Travail sur une machine virtuelle
+- Travail à faire sur le (fichier YAML + fichier HTML) : modifier les noms des pages pour les titres en {{}} qui seront affichés (même variable partout -> bug)

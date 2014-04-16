@@ -1,5 +1,5 @@
 pages:
-    - titre: Accueil
+    - Acceuil: Accueil
     
     # Interface donateur
     logindonateur:
@@ -10,12 +10,12 @@ pages:
         username: patronviinze
         password: abc123
     
-    - titre: "Projet [X]"
+    - Listedesprojets: "Projet [X]"
     # Investissement
     investissement:
         valeur: 1000
     
-    - titre: Interface donateur
+    - Interface donateur: Interface donateur
     
     # Projet à la une
     investissement:
@@ -26,7 +26,7 @@ pages:
             numero: 1234 4567 7890 1234
             cryptogramme: 123
     
-    - titre: Interface entrepreneur
+    - Interfaceentrepreneur: Interface entrepreneur
     
     # Création de projet
         projet:
@@ -46,7 +46,7 @@ pages:
             numero: 1234 4567 7890 1234
             cryptogramme: 123
     
-    - titre: Inscription "donateur" #1
+    - Inscription#1: Inscription "donateur" #1
     # Pseudonyme
         pseudo:
             nom: Smith
@@ -62,7 +62,7 @@ pages:
             phone2: +33 7 07 07 07 07
             phone3: +34 7 07 07 07 07
     
-    - titre: Inscription "entrepreneur" #1
+    - Inscription#1: Inscription "entrepreneur" #1
     # Pseudonyme
         pseudo:
             nom: Smith
