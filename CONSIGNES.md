@@ -37,7 +37,7 @@
   les données associées (données nécessaires pour afficher la page, et 
   données transmises par la page -> destination)
 
-## Séance du 4 avril
+## Séances du 4 avril et du 11 avril
 - Emmanuel : faire le ménage dans le répertoire Site 
   (ne pas commiter les virtualenv, isoler le python, voir .gitignore..)
 - Vincent : faire pour chaque page un modèle des données reçues et envoyées
@@ -45,3 +45,7 @@
 - Bettina + Vincent : commencer à construire les pages html des templates
   - lire documentation templates django
   - écrire template "de base" + feuille de style
+
+## Séance du 18 avril
+- Vincent / Bettina : continuer l'écriture des templates
+- Emmanuel : implémenter les vues de base

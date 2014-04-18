@@ -20,4 +20,9 @@ Répartition : Vincent : 50% / Emmanuel : 50% / Bettina : N/A
 
 Répartition : Vincent : 50% / Emmanuel : 50% / Bettina : N/A
 
-## Séance du 4 avril = 
+## Séances du 4 avril et du 11 avril = ??/10
+
+- Réorganisation des fichiers = OK
+- Début écriture templates OK
+
+Manque le boulot de Bettina / pb communication ds groupe
