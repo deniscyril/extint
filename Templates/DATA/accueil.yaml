@@ -1,0 +1,32 @@
+titre:
+projets:
+    - nom: Mon super projet
+      description: Ma description
+      image: URL image
+      valeur: 1000
+      commentaire: Un premier projet
+    - nom: Mon deuxième projet
+      description: Description deuxième projet
+      image: URL image
+      valeur: 2000
+      commentaire: Un deuxième projet
+      - nom: Mon troisième projet
+      description: Description troisième projet
+      image: URL image
+      valeur: 3000
+      commentaire: Un troisième projet
+    - nom: Mon quatrième projet
+      description: Description quatrième projet
+      image: URL image
+      valeur: 4000
+      commentaire: Un quatrième projet
+    - nom: Mon cinquième projet
+      description: Description cinquième projet
+      image: URL image
+      valeur: 5000
+      commentaire: Un cinquième projet
+    - nom: Mon sixième projet
+      description: Description sixième projet
+      image: URL image
+      valeur: 6000
+      commentaire: Un sixième projet

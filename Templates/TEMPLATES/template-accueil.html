@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>{{Acceuil}}</title>
+  </head>
+  <body>
+    <h2>Financement équitable</h2>
+      <ol>
+      <li><h6>Donner pour construire</h6></li>
+      <li><a= href="INSCRIPTION#1"/>
+      <li><h6>{{username}}</h6></li>
+      </ol>
+      #champs mot de passe
+      <img= href="{{imgdonateur}}"/>
+        #liste des projets
+    <h1>Liste des projets</h1>
+      <ol>
+        {% for projet in projets %}
+        <li><h5>{{projet.nom}}</h5></li>
+        <li><img href="{{projet.image}}"/></li>
+        <li><h6>{{projet.valeur}} €</h6></li>
+        <li><h5>{{projet.description}}</h5></li>
+        {% endfor %}
+      </ol>
+    <h2>Construire ensemble</h2>
+      <ol>
+      <li><h6>Construire ensemble</h6></li>
+      <li><a= href="INSCRIPTION#1"/>
+      <li><h6>{{username}}</h6></li>
+      </ol>
+      #champs mot de passe
+      <img= href="{{imgentrepreneur}}"/>
