@@ -95,3 +95,19 @@
 - Ménage dans les fichiers
 - Travail sur une machine virtuelle
 - Travail à faire sur le (fichier YAML + fichier HTML) : modifier les noms des pages pour les titres en {{}} qui seront affichés (même variable partout -> bug)
+
+## Mercredi 16 avril 
+
+- Création d'une machine virtuelle
+- Recherche de balises html 
+
+## Vendredi 18 avril 2014 
+
+- Travaux sur les templates .yaml et .html
+
+## Samedi 19 avril - 8h30 - 10h30
+
+- Machine virtuelle complète
+- Travaux sur les templates .yaml et .html
+- Balises HTML au point
+- 
