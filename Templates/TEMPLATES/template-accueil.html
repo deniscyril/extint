@@ -3,16 +3,16 @@
     <title>{{Acceuil}}</title>
   </head>
   <body>
-    <h2>Financement équitable</h2>
-      <ol>
-      <li><h6>Donner pour construire</h6></li>
-      <li><a= href="INSCRIPTION#1"/>
-      <li><h6>{{username}}</h6></li>
-      </ol>
-      <FORM method="POST" ACTION= "#Adresse de la page">
-      <img= href="{{imgdonateur}}"/>
-        #liste des projets
-    <h1>Liste des projets</h1>
+		<table width="100%"><tr><td width="25%"> <center><h2>Financement équitable</h2></center>
+      <center><h5>Donner pour construire</h6></center></li>
+			<ol>
+      	<li><a= href="INSCRIPTION#1"/>
+				<li><h6>Nom d'utilisateur</h6></li>
+      	<li><FORM method="POST"></li>
+      	<li><h6>Mot de passe</h6></li>
+      	<FORM method="POST" ACTION= "#Adresse de la page">
+		</ol>
+      <img= href="{{imgdonateur}}"/></td><td width:50%;"> <center><h1>Liste des projets</h1></center>
       <ol>
         {% for projet in projets %}
         <li><h5>{{projet.nom}}</h5></li>
@@ -20,13 +20,12 @@
         <li><h6>{{projet.valeur}} €</h6></li>
         <li><h5>{{projet.description}}</h5></li>
         {% endfor %}
-      </ol>
-    <h2>Construire ensemble</h2>
+      </ol></td><td width="25%"> <center><h2>Construire ensemble</h2></center>
       <ol>
       <li><h6>Construire ensemble</h6></li>
       <li><a= href="INSCRIPTION#1"/>
-      <li><h6>{{username}}</h6></li>
+      <li><FORM method="POST"></li>
+			<li><FORM	method="POST" ACTION= "#Adresse de la page">
       </ol>
-      #champs mot de passe
-      <img= href="{{imgentrepreneur}}"/>
+      <img= href="{{imgentrepreneur}}"/></td></tr></table>
   </body>
