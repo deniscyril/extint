@@ -1,4 +1,4 @@
-titre:
+Acceuil: Bievenue
 projets:
     - nom: Mon super projet
       description: Ma description
@@ -10,7 +10,7 @@ projets:
       image: URL image
       valeur: 2000
       commentaire: Un deuxième projet
-      - nom: Mon troisième projet
+    - nom: Mon troisième projet
       description: Description troisième projet
       image: URL image
       valeur: 3000
