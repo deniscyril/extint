@@ -36,5 +36,8 @@ class RegisterForm(forms.Form):
             if 'password_confirm' in cleaned_data:
                 del cleaned_data['password_confirm']
                 
-        
-        
+class LoginForm(forms.Form):
+    username = forms.CharField(label=u'Nom d\'utilisateur', max_length=50)
+    password = forms.CharField(
+        label=u'Mot de passe', max_length=100, widget=forms.PasswordInput
+    )
