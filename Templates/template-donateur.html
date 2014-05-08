@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>{{username}}</title>
+  </head>
+  <body>
+    <h2><center><font color="blue">{{username}}</font></center></h2>
+		<table width="100%"><tr><td width="50%"><center><h5>Projet &agrave; la une</center></h5>
+      	<ol>
+      	  {% for projet in projets %}
+      	  <li><h5>{{projet.nom}}</h5></li>
+      	  <li><img href="{{projet.image}}"/></li>
+      	  <li><h6>{{projet.valeur}} €</h6></li>
+      	  <li><h5>{{projet.description}}</h5></li>
+					<li>{{projet.commentaire}}
+      	  {% endfor %}
+      	</ol> {{photo}} +
+      <h5>{{nom}}</h5> + {{description}} + {{commentaire}} + {{valeurinvestisssement}}
+    <h5>Projets soutenus</h5>
+      # 4 * ({{Image}} + {{commentaire}} + {{montant investi}})
+    </td><td width="50%"><h5><center>Informations financi&egrave;res</center></h5>
+      # {{montantinvesti}} + {{benefeneuro}} + {{dureeenmois}}
+    <h5>{{Coordonnées financières}}</h5>
+      # [[Numéro de carte]] + [[Cryptogramme]] + [[Etablissement]] + [[Nom]] -
+      # {{nom}} + {{cryptogramme}} + {{etablissement}} + {{numerogrise}}
+
