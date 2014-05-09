@@ -13,12 +13,14 @@
 			<img= href="{{imgdonateur}}"/>
 		</div>
 	</td><td width="75%">
-		<p>
+		<br>
 		<h4><center>Liste des projets</h4></center>
         {% for projet in projets %}
         <h5>{{projet.nom}}</h5>
         <img href="{{projet.image}}"/>
         <h5><b>{{projet.valeur}} &euro;</b></h6>
-        <h5>{{projet.description}}</h5>
+        {{projet.commentaire}}<br>
+        <br>{{projet.description}}<br>
+        <br>
         {% endfor %}
     </td></tr></table>

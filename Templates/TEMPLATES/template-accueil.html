@@ -4,30 +4,42 @@
   </head>
   <body>
 		<center><h1>Financement &eacute;quitable</h1></center>
-        <table border="0" cellspacing="0" cellpadding="0">
-        <tr height="2"><td></td></tr>
-        <tr><td></td></tr>
-        </table>
-			<table width="100%"><tr><td width="25%"> <center><h2><font color="blue">Donner pour construire</font></h2></center>
-      	<center><h5><i>Donateur</i></h6></center>
-      		<a href="INSCRIPTION#1">Inscription donateur</a>
-					<h6>Nom d'utilisateur</h6>
-      		<FORM method="POST">
-      		<h6>Mot de passe</h6>
-      		<FORM method="POST" ACTION= "#Adresse de la page">
-      	<img= href="{{imgdonateur}}"/></td><td width="50%"> <center><h1><font color="red">Liste des projets</font></h1></center>   	
-      	  {% for projet in projets %}
-      	  <h5>{{projet.nom}}</h5>
-      	  <img href="{{projet.image}}"/>
-      	  <h6>{{projet.valeur}} €</h6>
-      	  <h5>{{projet.description}}</h5>
-      	  {% endfor %}
-      	</td><td width="25%"> <center><h2><font color="green">Construire ensemble</font></h2></center>
-      	<center><h5><i>Entrepreneur</i></h5></center>	
-      		<a href="INSCRIPTION#1">Inscription entrepreneur</a>
-					<h6>Nom d'utilisateur</h6>
-      		<FORM method="POST">
-					<h6>Mot de passe</h6>
-					<FORM	method="POST" ACTION= "#Adresse de la page">	
+		<table width="100%"><tr><td width="25%">
+			<br>
+			<center><h2><font color="blue">Donner pour construire</font></h2></center>
+      <center><h5><i>Donateur</i></h6></center>
+      	<br>
+      	{{Pourquoi s'inscrire}}
+      	<br><br>
+      	<a href="INSCRIPTION#1"><i>S'inscrire en tant que donateur</i></a>
+      	<br><br>
+				<h6>Nom d'utilisateur</h6>
+      	<FORM method="POST">
+      	<h6>Mot de passe</h6>
+      	<FORM method="POST" ACTION= "#Adresse de la page">
+      	<button onclick="ClicBouton();">Connexion</button>
+      	<img= href="{{imgdonateur}}"/>
+    </td><td width="50%">
+    	<center><h1><font color="red">Projets</font></h1></center>   	
+      	{% for projet in projets %}
+      	<h5>{{projet.nom}}</h5>
+      	<img href="{{projet.image}}"/>
+      	<h5><b>{{projet.valeur}} &euro;</b></h5>
+      	<h5>{{projet.description}}</h5>
+      	{% endfor %}
+    </td><td width="25%">
+    	<br>
+    	<center><h2><font color="green">Construire ensemble</font></h2></center>
+      <center><h5><i>Entrepreneur</i></h5></center>
+     		<br>
+      	{{Pourquoi s'inscrire}}
+      	<br><br>
+      	<a href="INSCRIPTION#1"><i>S'inscrire en tant qu'entrepreneur</i></a>
+      	<br><br>
+				<h6>Nom d'utilisateur</h6>
+      	<FORM method="POST">
+				<h6>Mot de passe</h6>
+				<FORM	method="POST" ACTION= "#Adresse de la page">
+				<button onclick="ClicBouton();">Connexion</button>
       	<img= href="{{imgentrepreneur}}"/></td></tr></table>
   </body>

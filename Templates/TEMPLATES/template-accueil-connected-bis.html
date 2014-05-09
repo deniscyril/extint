@@ -5,14 +5,18 @@
   <body>
     <center><h2><font color="green">{{Acceuil}}</h2></center>
     <center><i><h5>{{Nom d'utilisateur}}</font><i></h5></center>
-    <p><h5>Construire ensemble</h5></p>
+    <div align="left">
+    	<h5>Construire ensemble</h5>
+    </div>
     <table width="100%"><tr><td width="75%">
     	<center><h4>Liste des projets</h4></center>
     	{% for projet in projets %}
         <h5>{{projet.nom}}</h5>
         <img href="{{projet.image}}"/>
-        <h6>{{projet.valeur}} €</h6>
-        <h5>{{projet.description}}</h5>
+        <h5><b>{{projet.valeur}} &euro;</b></h6>
+        {{projet.commentaire}}<br>
+        <br>{{projet.description}}<br>
+        <br>
       {% endfor %}
     </td><td width="25%">
 			<div align="right">
