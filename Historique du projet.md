@@ -128,4 +128,6 @@
 
 - Poursuite des templates
 - Correction des erreurs des divers templates
-- COnstruction du template "Liste des projets" pour un utilisateur connecté
+- Construction du template "Liste des projets" pour un utilisateur connecté
+- Création des templates "Interfaces donateur" et "Interface entrepreneur"
+- Ménage dans le dossier "Templates" : suppression des fichiers archives
