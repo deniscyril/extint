@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>{{username}}</title>
+  </head>
+  <body>
+    <h2><center><font color="blue">{{username}}</center></h2>
+    <h6><center><i>Donner pour construire</font></i></center></h6>
+    <br>
+		<table width="100%">
+			<td width="50%">
+				<center><h5>Projet &agrave; la une</center></h5>
+      		{% for projet in projets %}
+      		<h5>{{projet.nom}}</h5>
+      		<img href="{{projet.image}}"/>
+      		<h5><b>{{projet.valeur}} &euro;</b></h5>
+      		<FORM method="POST" ACTION= "#Adresse de la page"> <button onclick="ClicBouton();">Investir</button>
+        	<br><br>
+       		{{projet.commentaire}}<br>
+        	<br>{{projet.description}}<br>
+					<br>{% endfor %}
+					<br><br>
+				<center><h6><i>Il est toujours possible d'augmenter sa participation financi&egrave;re dans un projet, afin d'augmenter les b&eacute;n&eacute;fices futurs.
+				<br>
+				Il n'est <b>pas possible</b> de se retirer d'un projet dans lequel on a d&eacute;j&agrave; investi.</i></center></h6>
+				<br><br>
+				<center><h5>Projets que vous soutenez</h5></center>
+				{% for projet in projets %}
+      		<h5>{{projet.nom}}</h5>
+      		<img href="{{projet.image}}"/>
+      		<h5><b><font color="orange">{{projet.investi}} </font>&euro;<br>
+      		<br>
+      		<br>{{projet.valeur}} &euro;</b></h5>
+      		<FORM method="POST" ACTION= "#Adresse de la page"> <button onclick="ClicBouton();">Investir</button>
+        	<br><br>
+       		{{projet.commentaire}}<br>
+        	<br>{{projet.description}}<br>
+					<br>{% endfor %}
+			</td><td width="50%">
+				<center><h5>Statut financier</center></h5>
+				<br>
+				<div align="left">
+					<h6>Montant total ver&eacute;</h6>
+					<b>#Somme des [investi]</b>
+					<h6>B&eacute;n&eacute;fice mensuel attendu</h6>
+					<table width="100%">
+						<td width="50%">
+							<b>#Benefice a esperer</b>
+						</td>
+						<td width="50%">
+							<b>#Duree de perception restante</b>
+						</td>
+					</table>
+				</div>
+				<br><br>
+				<center><h5>Coordonn&eacute;es financi&egrave;res</center></h5>
+				<br>
+				<table width="100%">
+					<td width="50%">
+					<div align="left">
+						<h6>Num&eacute;ro de carte bancaire</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+						<h6>Cryptogramme</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+						<h6>&Eacute;tablissement bancaire</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+					</div>
+					<td width="50%">
+					<div align="left">
+						<h6><font color="purple">Nom de la carte</h6>
+					</div>
+					<FORM method="POST" ACTION= "#Adresse de la page">
+					</font>
+					</td>
+				</table>
