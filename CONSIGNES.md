@@ -46,6 +46,15 @@
   - lire documentation templates django
   - écrire template "de base" + feuille de style
 
-## Séance du 18 avril
+## Séance du 18 avril + vacances
 - Vincent / Bettina : continuer l'écriture des templates
 - Emmanuel : implémenter les vues de base
+
+## Séance du 9 mai
+- POUR TOUS LES 3 : DISCUTER ENTRE VOUS POUR VOUS METTRE D'ACCORD
+  SUR LA REPARTITION DES TACHES ET L'ORGANISATION DU PROJET
+- Bettina : rattraper le train en marche
+- Vincent : essayer de faire tourner le serveur d'Emmanuel
+- Emmanuel : intégrer au moins un (voire plus) templates de Vincent dans le django
+
+
