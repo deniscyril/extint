@@ -1,9 +1,15 @@
 <html>
   <head>
-    <title>Liste des projets</title>
+    <title>{{Aperçus de projets}}</title>
   </head>
 	<body>
     <h1><center><font color="red">Liste des projets</font></center></h1>
+      <h5><center>
+      	Pour investir dans un projet, connectez-vous ou cr&eacute;ez un compte.
+      	<br>
+      	Vous aurez aussi acc&egrave;s aux avis de la r&eacute;daction concernant les diff&eacute;rents projets
+      </center></h5>
+      <br>
       {% for projet in projets %}
       <h5>{{projet.nom}}</h5>
       <img href="{{projet.image}}"/>

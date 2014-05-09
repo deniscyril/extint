@@ -128,3 +128,4 @@
 
 - Poursuite des templates
 - Correction des erreurs des divers templates
+- COnstruction du template "Liste des projets" pour un utilisateur connecté

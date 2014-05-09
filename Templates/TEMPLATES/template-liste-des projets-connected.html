@@ -1,13 +1,18 @@
 <html>
   <head>
-    <title>Liste des projets</title>
+    <title>{{Aperçus de projets}}</title>
   </head>
 	<body>
     <h1><center><font color="red">Liste des projets</font></center></h1>
+      <br>
       {% for projet in projets %}
       <h5>{{projet.nom}}</h5>
       <img href="{{projet.image}}"/>
+      {{projet.commentaire}}<br>
       <h5><b>{{projet.valeur}} &euro;</b></h5>
-      <h5>{{projet.description}}</h5>
+      <FORM method="POST" ACTION= "#Adresse de la page"> <button onclick="ClicBouton();">Investir</button>
+      <br><br>
+      {{projet.description}}
+      <br><br>
       {% endfor %}
 	</body>
