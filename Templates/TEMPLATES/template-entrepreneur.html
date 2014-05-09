@@ -3,55 +3,49 @@
     <title>{{username}}</title>
   </head>
   <body>
-    <h2><center><font color="blue">{{username}}</center></h2>
-    <h6><center><i>Donner pour construire</font></i></center></h6>
+    <h2><center><font color="green">{{username}}</center></h2>
+    <h6><center><i>Construire ensemble</font></i></center></h6>
     <br>
 		<table width="100%">
 			<td width="50%">
-				<center><h5>Projet &agrave; la une</center></h5>
+				<center><h5>Vos projets</center></h5>
       		{% for projet in projets %}
       		<h5>{{projet.nom}}</h5>
       		<img href="{{projet.image}}"/>
-      		<h5><b>{{projet.valeur}} &euro;</b></h5>
-      		<FORM method="POST" ACTION= "#Adresse de la page"> <button onclick="ClicBouton();">Investir</button>
-        	<br><br>
+      		<h5><b>{{projet.collecte}} &euro;</b></h5>
        		{{projet.commentaire}}<br>
         	<br>{{projet.description}}<br>
 					<br>{% endfor %}
 					<br><br>
-				<center><h6><i>Il est toujours possible d'augmenter sa participation financi&egrave;re dans un projet, afin d'augmenter les b&eacute;n&eacute;fices futurs.
-				<br>
-				Il n'est <b>pas possible</b> de se retirer d'un projet dans lequel on a d&eacute;j&agrave; investi.</i></center></h6>
-				<br><br>
-				<center><h5>Projets que vous soutenez</h5></center>
-				{% for projet in projets %}
-      		<h5>{{projet.nom}}</h5>
-      		<img href="{{projet.image}}"/>
-      		<h5><b><font color="orange">{{projet.investi}} </font>&euro;<br>
-      		<br>
-      		<br>{{projet.valeur}} &euro;</b></h5>
-      		<FORM method="POST" ACTION= "#Adresse de la page"> <button onclick="ClicBouton();">Investir</button>
-        	<br><br>
-       		{{projet.commentaire}}<br>
-        	<br>{{projet.description}}<br>
-					<br>{% endfor %}
+				<center><h5>Entreprendre un nouveau projet</h5></center>
+				<table width="100%">
+					<td width="40%">
+						#Upload d'une image
+					</td><td width="60%">
+						<h6>Nom du projet</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+						<h6>Montant demand&eacute;</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+						<h6>Description compl&egrave;te du projet</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+					</td>
+				</table>
 			</td><td width="50%">
-				<center><h5>Statut financier</center></h5>
+				<center><h5>Profil entrepreneur</center></h5>
 				<br>
-				<div align="left">
-					<h6>Montant total ver&eacute;</h6>
-					<b>#Somme des [investi]</b>
-					<h6>B&eacute;n&eacute;fice mensuel attendu</h6>
-					<table width="100%">
-						<td width="50%">
-							<b>#Benefice a esperer</b>
-						</td>
-						<td width="50%">
-							<b>#Duree de perception restante</b>
-						</td>
-					</table>
-				</div>
+				Il s'agit de votre profil, tel que les visiteurs du site le verront. Vous pouvez le laisser vide. Ou bien le compl&egrave;ter et lui adjoindre une description, une photo et un CV.
 				<br><br>
+				<table width="100%">
+					<td width=50%">
+						<h6>Description</h6>
+						<FORM method="POST" ACTION= "#Adresse de la page">
+						<h6>CV
+						<FORM method="POST" ACTION= "#Adresse de la page">
+					</td><td width="50%">
+						#Upload d'une image
+					</td>
+				</table>
+				<br>
 				<center><h5>Coordonn&eacute;es financi&egrave;res</center></h5>
 				<br>
 				<table width="100%">

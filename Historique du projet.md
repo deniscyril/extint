@@ -96,12 +96,12 @@
 - Travail sur une machine virtuelle
 - Travail à faire sur le (fichier YAML + fichier HTML) : modifier les noms des pages pour les titres en {{}} qui seront affichés (même variable partout -> bug)
 
-## Mercredi 16 avril 
+## Mercredi 16 avril  - 11h30 - 12h30
 
 - Création d'une machine virtuelle, afin de travailler plus souvent et plus rapidement
 - Recherche de balises html 
 
-## Vendredi 18 avril 2014 
+## Vendredi 18 avril 2014 - 15h00 - 16h00
 
 - Travaux sur les templates .yaml et .html
 
