@@ -4,19 +4,20 @@
   </head>
   <body>
     <center><h2><font color="green">{{Acceuil}}</h2></center>
-    <center><i><h5>{{username}}</font><i></h5></center>
-    <center><h6>Construire ensemble</h6></center>
-      <img= href="{{imgentrepreneur}}"/>
-        <table border="0" cellspacing="0" cellpadding="0">
-        <tr height="2"><td></td></tr>
-        <tr><td></td></tr>
-        </table>
-    <center><h1>Liste des projets</h1></center>
-      <ol>
-        {% for projet in projets %}
-        <li><h5>{{projet.nom}}</h5></li>
-        <li><img href="{{projet.image}}"/></li>
-        <li><h6>{{projet.valeur}} €</h6></li>
-        <li><h5>{{projet.description}}</h5></li>
-        {% endfor %}
-      </ol>
+    <center><i><h5>{{Nom d'utilisateur}}</font><i></h5></center>
+    <p><h5>Construire ensemble</h5></p>
+    <table width="100%"><tr><td width="75%">
+    	<center><h4>Liste des projets</h4></center>
+    	{% for projet in projets %}
+        <h5>{{projet.nom}}</h5>
+        <img href="{{projet.image}}"/>
+        <h6>{{projet.valeur}} €</h6>
+        <h5>{{projet.description}}</h5>
+      {% endfor %}
+    </td><td width="25%">
+			<div align="right">
+				{{texteentrepreneur}}
+				<h6><font color="green">{{Nom d'utilisateur}}</font></h6>
+      	<img= href="{{imgentrepreneur}}"/>
+      </div>
+    </td></table>

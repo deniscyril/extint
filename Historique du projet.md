@@ -119,3 +119,12 @@
 
 - Travail sur les templates / Début du template "Inscription2" et "Interface donateur"
 - Optimisation de la machine virtuelle
+
+## Vendredi 9 mai - 15H00 - 16H00
+
+- Préparation travail du soir
+
+## Vendredi 9 mai - PERSO
+
+- Poursuite des templates
+- Correction des erreurs des divers templates

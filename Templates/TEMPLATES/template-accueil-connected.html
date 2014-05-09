@@ -3,20 +3,22 @@
     <title>{{Acceuil}}</title>
   </head>
   <body>
-    <center><h2><font color="blue">{{Acceuil}}</h2></center>
-    <center><i><h5>{{username}}</font><i></h5></center>
-    <center><h6>Donner pour construire</h6></center>
-      <img= href="{{imgdonateur}}"/>
-        <table border="0" cellspacing="0" cellpadding="0">
-        <tr height="2"><td></td></tr>
-        <tr><td></td></tr>
-        </table>
-    <center><h1>Liste des projets</h1></center>
-      <ol>
+  	<center><h2><font color="blue">{{Acceuil}}</h2></center>
+    <center><i><h5>{{Nom d'utilisateur}}</font><i></h5></center>
+    <h5><i>Donner pour construire</i></h5>
+ 	<table width="100%"><tr><td width="25%">
+  	<div align="left">
+  		{{textedonateur}}
+  		<h6><font color="blue">{{Nom d'utilisateur}}</font></h6>
+			<img= href="{{imgdonateur}}"/>
+		</div>
+	</td><td width="75%">
+		<p>
+		<h4><center>Liste des projets</h4></center>
         {% for projet in projets %}
-        <li><h5>{{projet.nom}}</h5></li>
-        <li><img href="{{projet.image}}"/></li>
-        <li><h6>{{projet.valeur}} €</h6></li>
-        <li><h5>{{projet.description}}</h5></li>
+        <h5>{{projet.nom}}</h5>
+        <img href="{{projet.image}}"/>
+        <h5><b>{{projet.valeur}} &euro;</b></h6>
+        <h5>{{projet.description}}</h5>
         {% endfor %}
-      </ol>
+    </td></tr></table>
