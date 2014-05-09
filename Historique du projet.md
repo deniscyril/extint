@@ -98,7 +98,7 @@
 
 ## Mercredi 16 avril 
 
-- Création d'une machine virtuelle
+- Création d'une machine virtuelle, afin de travailler plus souvent et plus rapidement
 - Recherche de balises html 
 
 ## Vendredi 18 avril 2014 
@@ -110,4 +110,12 @@
 - Machine virtuelle complète
 - Travaux sur les templates .yaml et .html
 - Balises HTML au point
-- 
+
+##Mercredi 7 mai - 11h30 - 12h30
+
+- Travail sur les templates
+
+## Jeudi 8 mai - PERSO
+
+- Travail sur les templates / Début du template "Inscription2" et "Interface donateur"
+- Optimisation de la machine virtuelle
