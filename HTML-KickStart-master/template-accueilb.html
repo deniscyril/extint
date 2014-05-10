@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/kickstart.js"></script> <!-- KICKSTART -->
+	<link rel="stylesheet" href="css/kickstart.css" media="all" /> <!-- KICKSTART --><html>
+  <head>
+    <title>{{Acceuil}}</title>
+  </head>
+  <body>
+		<center><h1>Financement &eacute;quitable</h1></center>
+	<div class="grid">
+		<div class="col_3">
+
+			<ul> <font color="blue">Donner pour construire</font> </ul>
+      <textarea id="textarea1" placeholder="Interface donateur"></textarea>
+      	<br>
+      	{{Pourquoi s'inscrire}}
+      	<br><br>
+	<label for="INSCRIPTION#1"></label>
+	<input id="INSCRIPTION#1"type="text" placeholder="S'inscrire en tant que donateur" />
+
+      	<br><br>
+				<h6>Nom d'utilisateur</h6>
+      	<FORM method="POST">
+      	<h6>Mot de passe</h6>
+      	<FORM method="POST" ACTION= "#Adresse de la page">
+	<button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Connexion</button>
+	<img src="cashhandsLRG.png" width="300" height="400" />
+	<img= href="{{imgdonateur}}"/>
+	</div>	
+	</td><td width="50%">
+	<div class="col_6">
+
+		<ul style="text-align:center"><font color="red"> Projets </font></ul>   	
+		{% for projet in projets %}
+		<h5>{{projet.nom}}</h5>	
+	<img href="{{projet.image}}"/>
+      	<h5><b>{{projet.valeur}} &euro;</b></h5>
+      	{{projet.description}}<br><br>
+      	{% endfor %}
+		<div class="col_6"><img href="{{projet.image}}" width="300" height="300"/><div class="col_6"><img href="{{projet.image}}" width="300" height="300"/>
+		<div class="col_6"><img href="{{projet.image}}" width="300" height="300"/><div class="col_6"><img href="{{projet.image}}" width="300" height="300"/>
+		<div class="col_6"><img href="{{projet.image}}" width="300" height="300"/><div class="col_6"><img href="{{projet.image}}" width="300" height="300"/>
+
+	</div>
+	
+	
+	<div class="col_3">
+	<p>
+	</td><td width="25%">
+	<br>
+<ul "text-align:center"> <font color="green">Construire ensemble</font></h2></center>
+     		
+	<textarea id="INSCRIPTION#1" placeholder="Interface  entrepreneur"></textarea>
+	<label for="INSCRIPTION#1" ></label>
+	<input id="INSCRIPTION#1"  type="text" placeholder="S'inscrire en tant qu'entrepreneur" />
+      <br>
+      	{{Pourquoi s'inscrire}}
+      	<br><br>	
+	<br><br>
+				<h6>Nom d'utilisateur</h6>
+      	<FORM method="POST">
+				<h6>Mot de passe</h6>
+				<FORM	method="POST" ACTION= "#Adresse de la page">
+				<button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Connexion</button>
+	<img src="construire.png" width="300" height="300" />
+      	<img= href="{{imgentrepreneur}}"/></td></tr></table>
+	</div>
+  </body>

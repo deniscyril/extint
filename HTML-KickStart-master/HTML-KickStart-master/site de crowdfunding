@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/kickstart.js"></script> <!-- KICKSTART -->
+<link rel="stylesheet" href="css/kickstart.css" media="all" /> <!-- KICKSTART --><html>
+<title>IndieGogo clone</title>
+  </head>
+  <body>
+  <h1 style="text-align:center">Financement équitable</h1>
+          <table width="100%"><tr><td width="50%">  <ul> Donner pour construire </ul>
+
+   <!-- Textarea -->
+        <textarea id="textarea1" placeholder="Interface donateur"></textarea>
+        <p>
+        <!-- Placeholder Text -->
+        <label for="text2"></label>
+        <input id="text2" type="text" placeholder="S'inscrire en tant que donateur" />
+        </p>
+<p>
+        <!-- Placeholder Text -->
+        <label for="text2"></label>
+        <input id="text2" type="text" placeholder="Nom de l'utilisateur" />
+        </p>
+<p>
+        <!-- Placeholder Text -->
+        <label for="pass"></label>
+        <input id="password" type="pass" placeholder="*********" />
+<div id="form"></form></div>
+</p>
+<p>
+<!-- Click Action -->
+        <button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Connexion</button>
+</p>
+<p>
+<!-- Slideshow -->
+    <ul class="slideshow">
+    <img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="200" height="200" />
+    </ul>
+   </p>
+   
+   </td><td style="background-color:#000000; width:50%;">Contenu milieu</td><td width="55%"><ul>Construire ensemble</ul>
+   <!-- Textarea -->
+        <textarea id="textarea1" placeholder="Interface entrepreneur"></textarea>
+	<p><!-- Placeholder Text -->
+        <label for="text2"></label>
+        <input id="text2" type="text" placeholder="Créer un compte entrepreneur" />
+        </p>
+	<p>
+        <!-- Placeholder Text -->
+        <label for="text2"></label>
+        <input id="text2" type="text" placeholder="Nom de l'utilisateur" />
+        </p>
+<p>
+        <!-- Placeholder Text -->
+        <label for="pass"></label>
+        <input id="password" type="pass" placeholder="*********" />
+<div id="form"></form></div>
+</p>
+<p>
+<!-- Click Action -->
+        <button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Connexion</button>
+</p>
+<p>
+<!-- Slideshow -->
+    <ul class="slideshow">
+    <img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="200" height="200" />
+    </ul>
+   </p></td></tr></table>
+  
+   
+
+   
+  </body>
+</html>

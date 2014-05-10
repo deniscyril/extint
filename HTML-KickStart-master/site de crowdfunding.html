@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="js/kickstart.js"></script> <!-- KICKSTART -->
+	<link rel="stylesheet" href="css/kickstart.css" media="all" /> <!-- KICKSTART --><html>
+	<title>IndieGogo clone</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+        <h1 style="text-align:center">Financement équitable</h1>
+	<div class="grid">
+
+		<div class="col_3">
+			<ul> Donner pour construire </ul>
+			<!-- Textarea -->
+			<textarea id="textarea1" placeholder="Interface donateur"></textarea>
+			<p>
+				
+				<FORM method="POST">
+				<FORM method="POST" ACTION= "#Adresse de la page">
+				<!-- Placeholder Text -->
+				<label for="text2"></label>
+				<input id="text2" type="text" placeholder="S'inscrire en tant que donateur" />
+			</p>
+			<p>
+				<!-- Placeholder Text -->
+				<label for="text2"></label>
+				<input id="text2" type="text" placeholder="Nom de l'utilisateur" />
+			</p>
+			<p>
+				<!-- Placeholder Text -->
+				<label for="pass"></label>
+				<input id="password" type="pass" placeholder="*********" />
+				<div id="form"></form></div>
+			</p>
+			<p>
+			<!-- Click Action -->
+			<button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Connexion</button>
+			</p>
+			<p>
+				<img src="cashhandsLRG.png" width="300" height="400" />
+
+			</p>
+		</div>
+		<div class="col_6">
+			<center><ul><font color="red">Projets</font></ul></center>   	
+			{% for projet in projets %}
+			<h5>{{projet.nom}}</h5>
+			
+			<div class="col_6"><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="300" height="300" /></div><div class="col_6"><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="300" height="300" /></div>
+			<div class="col_6"><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="300" height="300" /></div><div class="col_6"><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="300" height="300" /></div>
+			<div class="col_6"><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="300" height="300" /></div><div class="col_6"><img src="http://placehold.it/550x350/4D99E0/ffffff.png&text=550x350" width="300" height="300" /></div>
+			<h5><b>{{projet.valeur}} &euro;</b></h5>
+			{{projet.description}}<br><br>
+			{% endfor %}
+			</div>
+		<div class="col_3">
+		<p>
+<ul> Construire ensemble</ul>
+		<!-- Textarea -->
+                <textarea id="textarea1" placeholder="Interface  entrepreneur"></textarea>
+                <p>
+                <!-- Placeholder Text -->
+                <label for="text2"></label>
+                <input id="text2" type="text" placeholder="S'inscrire en tant qu'entrepreneur" />
+                </p>
+                <p>
+                <!-- Placeholder Text -->
+                <label for="text2"></label>
+                <input id="text2" type="text" placeholder="Nom de l'utilisateur" />
+                </p>
+                <p>
+                <!-- Placeholder Text -->
+		<label for="pass"></label>
+                <input id="password" type="pass" placeholder="*********" />
+                <div id="form"></form></div>
+	        </p>
+		<p>
+                <!-- Click Action -->
+               <button class="tooltip medium blue pill" data-content="#tooltipcontentID" data-action="click">Connexion</button>
+               </p>
+               <p>
+	       <img src="construire.png" width="300" height="300" />
+
+              </p>
+		</div>
+	</div>
+</body>
+</html>
