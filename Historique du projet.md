@@ -131,3 +131,9 @@
 - Construction du template "Liste des projets" pour un utilisateur connecté
 - Création des templates "Interfaces donateur" et "Interface entrepreneur"
 - Ménage dans le dossier "Templates" : suppression des fichiers archives
+
+## Samedi 10 mai - 8h30 - 10h30
+
+- TRAVAIL DE GROUPE (+ Bettina)
+- Debug templates
+- 
