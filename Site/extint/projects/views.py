@@ -22,4 +22,4 @@ def index(request):
     except EmptyPage:
         projects = paginator.page(paginator.num_pages)
     
-    return render(request, 'projects/index.html', {'projects': projects}
+    return render(request, 'projects/index.html', {'projects': projects})
