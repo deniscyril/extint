@@ -136,4 +136,5 @@
 
 - TRAVAIL DE GROUPE (+ Bettina)
 - Debug templates
-- 
+- Essai du serveur d'Emmanuel
+- Travail sur les CSS et la mise en forme
