@@ -57,4 +57,9 @@
 - Vincent : essayer de faire tourner le serveur d'Emmanuel
 - Emmanuel : intégrer au moins un (voire plus) templates de Vincent dans le django
 
+## Séance du 15 mai
+-  Après discussion avec Emmanuel, il semble que la communication pose encore problème. Conseil: 
+chaque membre de l'équipe formule une demande détaillée de ce qu'il a besoin que l'autre exécuter. Si on ne sait pas réaliser une partie on le dit et on pose alors des questions.
+- Bettina : Avancer le design du site en discutant des moyens techniques avec Emmanuel. Commiter ton travail (même en mode texte).
+- Emmanuel : Formuler à Vincent et Bettina des demandes sur des points précis du projets afin d'atteindre des objectifs raisonnables dans le temps qui reste au projet.
 
